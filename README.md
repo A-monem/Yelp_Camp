@@ -8,7 +8,7 @@
 
 3.Run app.js using "node app.js"
 
-4.Explore localhost:3000
+4.Open localhost:3000
 
 Enjoy :)
 
