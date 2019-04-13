@@ -15,7 +15,7 @@ Enjoy :)
 # Technologies used
 Built With EJS, CSS, Vanilla JS, Node.js, Bootstrap, Mongo DB, Restful Routes.
 
-Node.js dependencies: {
+Node.js dependencies:
     "body-parser": "^1.18.3",
     "connect-flash": "^0.1.1",
     "dotenv": "^7.0.0",
@@ -29,7 +29,7 @@ Node.js dependencies: {
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1",
     "request": "^2.88.0"
-  }
+
 
 # Screenshots
 
