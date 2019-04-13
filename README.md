@@ -1,4 +1,4 @@
-# Restful Blog App
+# YelpCamp
 
 1.Clone the repo git clone https://github.com/A-monem/Yelp_Camp.git into your local machine
 
@@ -12,33 +12,71 @@
 
 Enjoy :)
 
-# Technologies used
-Built With EJS, CSS, Vanilla JS, Node.js, Bootstrap, Mongo DB, Restful Routes.
+## Live Demo
 
-Node.js dependencies:
-    ("body-parser": "^1.18.3",
-    "connect-flash": "^0.1.1",
-    "dotenv": "^7.0.0",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "express-session": "^1.15.6",
-    "method-override": "^3.0.0",
-    "mongoose": "^5.4.20",
-    "node-geocoder": "^3.22.0",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^5.0.1",
-    "request": "^2.88.0")
+To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://yelpcamp--demo.herokuapp.com/)
+
+## Features
+
+* Authentication:
+  
+  * User login with username and password
+
+  * Admin sign-up with admin code
+
+* Authorization:
+
+  * One cannot manage posts and view user profile without being authenticated
+
+  * One cannot edit or delete posts and comments created by other users
+
+* Manage campground posts with basic functionalities:
+
+  * Create, edit and delete posts and comments
+
+  * Upload campground photos
+
+  * Display campground location on Google Maps
+
+* Flash messages responding to users' interaction with the app
+
+* Responsive web design
+
+## Built with
+
+### Front-end
+
+* [ejs](http://ejs.co/)
+* [Google Maps APIs](https://developers.google.com/maps/)
+* [Bootstrap](https://getbootstrap.com/docs/3.3/)
+
+### Back-end
+
+* [express](https://expressjs.com/)
+* [mongoDB](https://www.mongodb.com/)
+* [mongoose](http://mongoosejs.com/)
+* [async](http://caolan.github.io/async/)
+* [passport](http://www.passportjs.org/)
+* [passport-local](https://github.com/jaredhanson/passport-local#passport-local)
+* [express-session](https://github.com/expressjs/session#express-session)
+* [method-override](https://github.com/expressjs/method-override#method-override)
+* [geocoder](https://github.com/wyattdanger/geocoder#geocoder)
+* [connect-flash](https://github.com/jaredhanson/connect-flash#connect-flash)
+
+### Platforms
+
+* [Heroku](https://www.heroku.com/)
+* [Cloud9](https://aws.amazon.com/cloud9/?origin=c9io)
 
 
-# Screenshots
+## Screenshots
 
 ![Home page screenshot](/images/YelpCamp_Pic2.jpg)
 
 *****************************************
 
-![](/images/YelpCamp_Pic1.jpg)
+![Show a campground](/images/YelpCamp_Pic1.jpg)
 
 *****************************************
 
-![](/images/YelpCamp_Pic3.jpg)
+![Edit campground](/images/YelpCamp_Pic3.jpg)
