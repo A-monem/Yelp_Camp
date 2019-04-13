@@ -2,9 +2,7 @@
 
 1.Clone the repo git clone https://github.com/A-monem/Yelp_Camp.git into your local machine
 
-2.Open Project Folder
-
-3.Run mongo DB
+2.Run mongo DB
 
 3.Run app.js using "node app.js"
 
