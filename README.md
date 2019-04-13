@@ -16,7 +16,7 @@ Enjoy :)
 Built With EJS, CSS, Vanilla JS, Node.js, Bootstrap, Mongo DB, Restful Routes.
 
 Node.js dependencies:
-    "body-parser": "^1.18.3",
+    ("body-parser": "^1.18.3",
     "connect-flash": "^0.1.1",
     "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
@@ -28,7 +28,7 @@ Node.js dependencies:
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1",
-    "request": "^2.88.0"
+    "request": "^2.88.0")
 
 
 # Screenshots
