@@ -12,7 +12,7 @@ Enjoy :)
 
 ## Live Demo
 
-To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://yelpcamp--demo.herokuapp.com/)
+To see the app in action, go to [https://anafea-yelp-camp.herokuapp.com/](https://anafea-yelp-camp.herokuapp.com/)
 
 ## Features
 
@@ -52,6 +52,7 @@ To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://
 
 * [express](https://expressjs.com/)
 * [mongoDB](https://www.mongodb.com/)
+* [mongoDB Atlas](https://www.mongodb.com/)
 * [mongoose](http://mongoosejs.com/)
 * [async](http://caolan.github.io/async/)
 * [passport](http://www.passportjs.org/)
