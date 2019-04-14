@@ -3,7 +3,6 @@ var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
-// var seedDB = require("./seeds");
 var passport = require("passport");
 var LocalStrategy = require("passport-local");
 var User = require("./models/user.js");
@@ -12,9 +11,6 @@ var indexRoutes = require("./routes/index");
 var commentRoutes = require("./routes/comments");
 var methodOverride = require('method-override');
 var flash = require("connect-flash");
-
-
-// seedDB();
 
 app.set("view engine", "ejs");
 
